@@ -5,6 +5,7 @@
 
   }
   main {
+    
     background-color: none;
     padding: 32px 72px;
     display: flex; 
@@ -20,6 +21,7 @@
   }
 
   body{
+    background-image: url(https://wallpapercave.com/wp/wp7589697.jpg);
     background: url(/Users/shazibsiddique/coding/GA/PROJECTS/Dragon-Ball-Series-Quizer/PNG/g4.png);
     background-repeat: no-repeat;
     background-image: cover;
