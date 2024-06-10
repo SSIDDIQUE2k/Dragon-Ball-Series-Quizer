@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+  }
+  main {
+    background-color: none;
+    padding: 32px 72px;
+    display: flex; 
+    align-items: center;
+    gap: 110px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 350px;
+    
+    
+ 
+
+  }
+
+  body{
+    background: url(/Users/shazibsiddique/coding/GA/PROJECTS/Dragon-Ball-Series-Quizer/PNG/g4.png);
+    background-repeat: no-repeat;
+    background-image: cover;
+   background-size: 1550px 1000px;
+  }
+  
+ 
+  .img-placeholder {
+    width: 355px;
+    height: 270px;
+    background-color: gray;
+    border-radius: 8px;
+  }
+  .image-placeholder {
+    width: 355px;
+    height: 270px;
+    background-color: gray;
+    border-radius: 8px;
+  }
+  .card-footer {
+    font-size: 14px;
+    display: flex;
+    justify-content:  space-between;
+  }
+  
+  .card-footer * {
+    margin-top: 8px;
+  }
+  

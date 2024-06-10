@@ -1,7 +1,35 @@
-body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+#Title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Arial';
+    cursor: pointer;
+    text-decoration: none;
+}
+.game-Selector {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+body {
+    color: white;
+    font-size: 40px;
+    background: url(https://www.dragon-ball-gif.com/wp-content/uploads/2021/07/Logo-Dragon-Ball-Z-Opening-1.gif);
+    background-repeat: no-repeat;
+    background-image: cover;
+   background-size: 1550px 1000px;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    text-align: center;
+    
+}
+
+audio {
+    display: none;
+    
 }
