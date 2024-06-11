@@ -17,18 +17,7 @@
     text-align: center;
     justify-content: center; 
 }
-#Title {
-  color: white;
-  font-size: fit-content;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  font-family: 'Arial';
-  cursor: pointer;
-  text-decoration: none;
-  font: 30px sans-serif;
 
-}
 
 main {
     margin-top: 100px;
