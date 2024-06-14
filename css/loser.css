@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-size: 40px;
+
+}
+#gameOver{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 40vw;
+    align-items: center;
+    padding:  23px 30px;
+    
+    
+    position: fixed;
+    margin-top: 400px;
+    margin-bottom: 200px;
+    top: 250px;
+    left: 32%;
+    background-color: black;
+    border-radius: 4px solid black;
+    font-family: "Jaro", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    width: 45%;
+    
+}
+body{
+    background-color: orange;
+}
+
+
