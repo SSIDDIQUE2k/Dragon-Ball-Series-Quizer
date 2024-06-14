@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+                                              /* --- DOM ELEMENTS --- */             
     const choice1 = document.getElementById('choice1');
     const choice2 = document.getElementById('choice2');
     const choice3 = document.getElementById('choice3');
@@ -7,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pointsCounter = document.getElementById('points');
     const playAgainButton = document.getElementById('play-again');
     const choices = [
+                                                    /* - QUESTIONS - */
         /* QUESTION 1 */
         {
             question: "Which one is Goku?",
@@ -127,6 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answer: "vegeta"
     },
     ];
+    /* --- GAME LOGIC --- */
     let currentQuestionIndex = 0;
     let correctAnswers = 0;
     function questionare() {
@@ -177,6 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
        
     }
+    /* --- EVENT LISTENERS --- */
     choice1.addEventListener('click', play);
     choice2.addEventListener('click', play);
     choice3.addEventListener('click', play);

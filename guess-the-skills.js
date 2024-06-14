@@ -1,3 +1,5 @@
+/* ----------------- Guess the skills ----------------- */
+/* -- DOM ELEMENTS -- */
 document.addEventListener('DOMContentLoaded', () => {
     const choice1 = document.getElementById('choice1');
     const choice2 = document.getElementById('choice2');
@@ -7,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pointsCounter = document.getElementById('points');
 
     const choices = [
+                            /* - QUESTIONS - */
         /* QUESTION 1 */
         {
             question: "Which one is the Kamehame-wave?",
@@ -129,8 +132,11 @@ document.addEventListener('DOMContentLoaded', () => {
         answer: "gogeta"
     },
     ];
+    /* -- VARIABLES -- */
     let currentQuestionIndex = 0;
     let correctAnswers = 0;
+
+    /* -- FUNCTIONS -- */
     function questionare() {
         const currentQuestion = choices[currentQuestionIndex];
         questionElement.innerText = currentQuestion.question;
@@ -179,6 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
        
     }
+    /* -- EVENT LISTENERS -- */
     choice1.addEventListener('click', play);
     choice2.addEventListener('click', play);
     choice3.addEventListener('click', play);
